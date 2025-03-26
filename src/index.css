@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 25% 98%;
+    --foreground: 20 40% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 40% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 40% 15%;
+
+    --primary: 25 60% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 20% 94%;
+    --secondary-foreground: 25 60% 30%;
+
+    --muted: 30 15% 92%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 25 70% 95%;
+    --accent-foreground: 25 60% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 20 30% 90%;
+    --input: 20 30% 90%;
+    --ring: 25 60% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 40% 10%;
+    --foreground: 30 25% 90%;
+
+    --card: 20 40% 12%;
+    --card-foreground: 30 25% 90%;
+
+    --popover: 20 40% 12%;
+    --popover-foreground: 30 25% 90%;
+
+    --primary: 25 60% 50%;
+    --primary-foreground: 20 40% 10%;
+
+    --secondary: 30 20% 16%;
+    --secondary-foreground: 30 25% 90%;
+
+    --muted: 30 15% 18%;
+    --muted-foreground: 30 15% 70%;
+
+    --accent: 25 70% 18%;
+    --accent-foreground: 30 25% 90%;
+
+    --destructive: 0 62.8% 40.6%;
+    --destructive-foreground: 30 25% 90%;
+
+    --border: 20 30% 20%;
+    --input: 20 30% 20%;
+    --ring: 25 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.page-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+.navbar-item {
+  @apply relative text-foreground hover:text-primary transition-colors duration-300;
+}
+
+.navbar-item::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+}
+
+.navbar-item:hover::after {
+  @apply w-full;
+}
+
+.menu-card {
+  @apply bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-hover {
+  @apply relative overflow-hidden z-10;
+}
+
+.btn-hover::before {
+  content: '';
+  @apply absolute inset-0 bg-black bg-opacity-0 z-[-1] transition-colors duration-300;
+}
+
+.btn-hover:hover::before {
+  @apply bg-opacity-5;
+}
+
+.img-hover {
+  @apply transition-transform duration-700 ease-out;
+}
+
+.img-hover:hover {
+  @apply scale-105;
+}
