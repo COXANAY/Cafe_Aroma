@@ -32,19 +32,19 @@ const Hero = () => {
         <div className="max-w-2xl">
           <span 
             className={`inline-block bg-primary/90 text-white px-4 py-1 rounded-full text-sm font-medium mb-6 transform transition-all duration-700 ease-out ${
-              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+              isVisible ? 'translate-y-0 opacity- 100' : 'translate-y-10 opacity-0'
             }`}
           >
-            Welcome to Café Aroma
+            Bem-Vindo ao Café Aroma
           </span>
           
           <h1 
-            className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight transform transition-all duration-700 ease-out delay-100 ${
+            className={`text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight transform transition-all duration-700 ease-out delay-100 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            Experience Coffee <br />
-            <span className="text-primary">Like Never Before</span>
+            Experimente nosso Café <br />
+            <span className="text-primary">Cada xícara é algo especial</span>
           </h1>
           
           <p 
@@ -52,7 +52,7 @@ const Hero = () => {
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            Discover our artisanal coffee selection, handcrafted pastries, and welcoming atmosphere that makes every visit special.
+            Descubra nossa seleção de cafés artesanais, doces feitos à mão e um ambiente acolhedor que torna cada visita especial.
           </p>
           
           <div 
@@ -64,13 +64,13 @@ const Hero = () => {
               to="/menu" 
               className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 text-center btn-hover"
             >
-              Explore Our Menu
+              Confira nosso cardápio
             </Link>
             <Link 
               to="/contact" 
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border border-white/20 px-6 py-3 rounded-lg font-medium transition-all duration-300 text-center btn-hover"
             >
-              Find Us
+              Visite-nos
             </Link>
           </div>
         </div>

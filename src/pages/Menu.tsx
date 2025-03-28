@@ -186,12 +186,11 @@ const Menu = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2 animate-on-scroll">
-              Discover Our Offerings
+              Descubra Nossas Ofertas
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">Our Menu</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">Nosso cardápio</h1>
             <p className="text-gray-600 animate-on-scroll">
-              Explore our carefully curated selection of coffees, specialty drinks, pastries, and food items. 
-              Each item is crafted with the finest ingredients and attention to detail.
+              Explore nossa seleção cuidadosamente curada de cafés, bebidas especiais, doces e pratos. Cada item é feito com os melhores ingredientes e atenção aos detalhes.
             </p>
           </div>
         </div>
@@ -238,10 +237,9 @@ const Menu = () => {
       <section className="py-20 bg-coffee-50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center mb-12 animate-on-scroll">
-            <h2 className="text-3xl font-bold mb-4">Special Dietary Options</h2>
+            <h2 className="text-3xl font-bold mb-4">Opções Dietéticas Especiais</h2>
             <p className="text-gray-600">
-              We understand that many of our customers have specific dietary needs. 
-              We're happy to offer a variety of options to accommodate different preferences.
+              Entendemos que muitos dos nossos clientes têm necessidades dietéticas específicas. Estamos felizes em oferecer uma variedade de opções para atender a diferentes preferências.
             </p>
           </div>
           
@@ -250,29 +248,29 @@ const Menu = () => {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-green-600 text-2xl font-bold">V</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Vegetarian</h3>
+              <h3 className="text-xl font-bold mb-3">Vegetariano</h3>
               <p className="text-gray-600">
-                We offer a variety of vegetarian food options and can modify many menu items to be vegetarian.
+                Oferecemos uma variedade de opções vegetarianas e podemos modificar muitos itens do menu para serem vegetarianos
               </p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-sm text-center animate-on-scroll">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-2xl font-bold">GF</span>
+                <span className="text-blue-600 text-2xl font-bold">SG</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Gluten-Free</h3>
+              <h3 className="text-xl font-bold mb-3">Sem Glúten</h3>
               <p className="text-gray-600">
-                Several of our food items are gluten-free, and we can prepare most drinks without gluten.
+                Vários dos nossos pratos são sem glúten, e podemos preparar a maioria das bebidas sem glúten.
               </p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-sm text-center animate-on-scroll">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 text-2xl font-bold">DF</span>
+                <span className="text-purple-600 text-2xl font-bold">SL</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Dairy-Free</h3>
+              <h3 className="text-xl font-bold mb-3">Sem Lactose</h3>
               <p className="text-gray-600">
-                We provide alternative milk options including oat, almond, and soy for any drink on our menu.
+                Oferecemos opções de leites alternativos, como aveia, amêndoa e soja, para qualquer bebida do nosso menu.
               </p>
             </div>
           </div>
@@ -283,16 +281,16 @@ const Menu = () => {
       <section className="py-20 bg-coffee-800 text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-on-scroll">
-            Want to make a reservation?
+            Quer fazer uma reserva?
           </h2>
           <p className="max-w-2xl mx-auto mb-8 text-coffee-100 animate-on-scroll">
-            For groups of 6 or more, we recommend making a reservation to ensure we can accommodate your party.
+            Para grupos de 6 ou mais pessoas, recomendamos fazer uma reserva para garantir que possamos acomodar todos.
           </p>
           <a 
             href="tel:+15551234567" 
             className="inline-block bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 animate-on-scroll btn-hover"
           >
-            Call Us at (555) 123-4567
+            WhatsApp (68) 99924-8990
           </a>
         </div>
       </section>

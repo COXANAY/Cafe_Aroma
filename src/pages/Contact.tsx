@@ -60,11 +60,11 @@ const Contact = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2 animate-on-scroll">
-              Get In Touch
+              Entre em Contato
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">Contact Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">Fale Conosco</h1>
             <p className="text-gray-600 animate-on-scroll">
-              We'd love to hear from you. Reach out with questions, feedback, or just to say hello.
+              Adoraríamos ouvir de você. Entre em contato para perguntas, feedback ou apenas para dizer oi.
             </p>
           </div>
         </div>
@@ -78,10 +78,11 @@ const Contact = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Our Location</h3>
+              <h3 className="text-xl font-bold mb-2">Nossa Localização</h3>
               <p className="text-gray-600">
-                123 Coffee Street<br />
-                Brew City, BC 10101
+                Rua 15 de Novembro, 789 Centro, Jaraguá do Sul - SC
+                <br />
+                CEP: 89251-100
               </p>
             </div>
             
@@ -89,10 +90,10 @@ const Contact = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Phone</h3>
+              <h3 className="text-xl font-bold mb-2">Telefone</h3>
               <p className="text-gray-600">
                 <a href="tel:+15551234567" className="hover:text-primary transition-colors">
-                  (555) 123-4567
+                  (68) 99924-8990
                 </a>
               </p>
             </div>
@@ -101,10 +102,10 @@ const Contact = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Email</h3>
+              <h3 className="text-x1 font-bold mb-2">Email</h3>
               <p className="text-gray-600">
-                <a href="mailto:info@cafearoma.com" className="hover:text-primary transition-colors">
-                  info@cafearoma.com
+                <a href="mailto:joaoemanuelsilvaneri2005@gmail.com" className="hover:text-primary transition-colors">
+                  joaoemanuelsilvaneri2005@gmail.com
                 </a>
               </p>
             </div>
@@ -113,11 +114,11 @@ const Contact = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Hours</h3>
+              <h3 className="text-xl font-bold mb-2">Horário</h3>
               <p className="text-gray-600">
-                Mon-Fri: 7AM - 8PM<br />
-                Sat: 8AM - 9PM<br />
-                Sun: 8AM - 6PM
+                Seg-Sex: 07:00 - 20:00<br />
+                Sab: 08:00 - 21:00<br />
+                Dom: 08:00 - 18:00
               </p>
             </div>
           </div>
@@ -125,7 +126,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Map */}
             <div className="animate-on-scroll">
-              <h2 className="text-2xl font-bold mb-6">Find Us</h2>
+              <h2 className="text-2xl font-bold mb-6">Encontre-nos</h2>
               <div className="rounded-lg overflow-hidden shadow-sm h-[450px] bg-gray-100">
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937554!2d2.2922926156742855!3d48.858370079287475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1621543061246!5m2!1sen!2sus" 
@@ -141,11 +142,11 @@ const Contact = () => {
             
             {/* Contact Form */}
             <div className="animate-on-scroll">
-              <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-bold mb-6">Envie-nos uma Mensagem</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Full Name
+                    Nome completo
                   </label>
                   <input
                     id="name"
@@ -160,7 +161,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email Address
+                    Endereço de email
                   </label>
                   <input
                     id="email"
@@ -175,7 +176,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                    Subject
+                    Assunto
                   </label>
                   <input
                     id="subject"
@@ -190,7 +191,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                    Message
+                    Mensagem
                   </label>
                   <textarea
                     id="message"
@@ -226,39 +227,39 @@ const Contact = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-              Common Questions
+              Perguntas Frequentes
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Perguntas Mais Frequentes</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
           </div>
           
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">
               <div className="bg-white rounded-lg shadow-sm p-6 animate-on-scroll">
-                <h3 className="text-xl font-bold mb-2">Do you offer WiFi?</h3>
+                <h3 className="text-xl font-bold mb-2">Vocês oferecem Wi-Fi?</h3>
                 <p className="text-gray-600">
-                  Yes, we provide free high-speed WiFi for all our customers. Simply ask any of our staff for the current password.
+                Sim, oferecemos Wi-Fi gratuito de alta velocidade para todos os nossos clientes. Basta pedir à nossa equipe a senha atual.
                 </p>
               </div>
               
               <div className="bg-white rounded-lg shadow-sm p-6 animate-on-scroll">
-                <h3 className="text-xl font-bold mb-2">Can I make a reservation?</h3>
+                <h3 className="text-xl font-bold mb-2">Posso fazer uma reserva?</h3>
                 <p className="text-gray-600">
-                  For groups of 6 or more, we recommend making a reservation to ensure we can accommodate your party. Please call us at (555) 123-4567 to reserve a table.
+                  Para grupos de 6 ou mais pessoas, recomendamos fazer uma reserva para garantir que possamos acomodar todos. Por favor, ligue para (68) 99924-8990 para reservar uma mesa.
                 </p>
               </div>
               
               <div className="bg-white rounded-lg shadow-sm p-6 animate-on-scroll">
-                <h3 className="text-xl font-bold mb-2">Do you have outdoor seating?</h3>
+                <h3 className="text-xl font-bold mb-2">Vocês têm assentos ao ar livre?</h3>
                 <p className="text-gray-600">
-                  Yes, we have a beautiful patio area that's open during spring and summer months, weather permitting.
+                  Sim, temos uma linda área externa que fica aberta durante a primavera e o verão, dependendo das condições climáticas.
                 </p>
               </div>
               
               <div className="bg-white rounded-lg shadow-sm p-6 animate-on-scroll">
-                <h3 className="text-xl font-bold mb-2">Do you sell beans to take home?</h3>
+                <h3 className="text-xl font-bold mb-2">Vocês vendem grãos para levar para casa?</h3>
                 <p className="text-gray-600">
-                  Absolutely! We sell our house blend and single-origin beans in 12oz bags. Our staff can also grind the beans according to your preference.
+                  Com certeza! Vendemos nossa mistura da casa e grãos de origem única em sacos de 340g. Nossa equipe também pode moer os grãos de acordo com sua preferência.
                 </p>
               </div>
             </div>

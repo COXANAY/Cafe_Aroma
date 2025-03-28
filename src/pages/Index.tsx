@@ -42,20 +42,20 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
               <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-                Our Story
+                Nossa História
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">A Passion for Perfect Coffee</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Uma Paixão pelo Café Perfeito</h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2010, Café Aroma began with a simple mission: to serve exceptional coffee in a space that feels like home. Our founders, Maria and Daniel, traveled the world studying coffee cultivation and roasting techniques before bringing their expertise back to create something special.
+                Fundado em 2010, o Café Aroma começou com uma missão simples: servir um café excepcional em um ambiente que se sente como casa. Nossos fundadores, Maria e Daniel, viajaram pelo mundo estudando o cultivo do café e técnicas de torra antes de trazerem seu conhecimento de volta para criar algo especial.
               </p>
               <p className="text-gray-600 mb-6">
-                Every bean we source is carefully selected from sustainable farms, and our roasting process is perfected to bring out the unique character of each variety. We believe that great coffee is an art form, and we're dedicated to sharing that art with our community.
+                Cada grão que selecionamos é cuidadosamente escolhido de fazendas sustentáveis, e nosso processo de torra é aperfeiçoado para realçar o caráter único de cada variedade. Acreditamos que um bom café é uma forma de arte e estamos dedicados a compartilhar essa arte com nossa comunidade.
               </p>
               <Link 
                 to="/about" 
                 className="inline-flex items-center text-primary font-medium hover:underline"
               >
-                Learn more about us
+                <u>Saiba mais sobre nós</u>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
@@ -68,9 +68,9 @@ const Index = () => {
               />
               <div className="absolute -bottom-6 -left-6 bg-white rounded-lg shadow-lg p-6 max-w-xs">
                 <p className="text-gray-800 font-medium">
-                  "We believe every cup of coffee tells a story, and we're here to make it a great one."
+                "Acreditamos que cada xícara de café guarda histórias – de amores, sorrisos e despedidas. Entre o aroma e o calor, vivem memórias inesquecíveis."
                 </p>
-                <p className="text-sm text-primary mt-2">— Maria, Co-founder</p>
+                <p className="text-sm text-primary mt-2">— João, Co-fundador</p>
               </div>
             </div>
           </div>
@@ -84,9 +84,9 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-              Why Choose Us
+              Por que Nos Escolher
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold">The Café Aroma Experience</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">A Experiência Café Aroma</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
           </div>
           
@@ -95,9 +95,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Coffee className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Premium Beans</h3>
+              <h3 className="text-xl font-bold mb-3">Grãos Premium</h3>
               <p className="text-gray-600">
-                Sourced from sustainable farms and roasted in-house for the freshest flavor.
+                Selecionados de fazendas sustentáveis e torrados internamente para um sabor mais fresco.
               </p>
             </div>
             
@@ -105,9 +105,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Utensils className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Fresh Food</h3>
+              <h3 className="text-xl font-bold mb-3">Comida Fresca</h3>
               <p className="text-gray-600">
-                Handcrafted pastries and meals made daily with locally-sourced ingredients.
+                Doces e refeições artesanais preparados diariamente com ingredientes locais.
               </p>
             </div>
             
@@ -115,9 +115,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Users className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Expert Baristas</h3>
+              <h3 className="text-xl font-bold mb-3">Baristas Especializados</h3>
               <p className="text-gray-600">
-                Skilled professionals who take pride in crafting the perfect cup, every time.
+                Profissionais habilidosos que se dedicam a criar a xícara perfeita, sempre.
               </p>
             </div>
             
@@ -125,9 +125,9 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Clock className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Cozy Atmosphere</h3>
+              <h3 className="text-xl font-bold mb-3">Ambiente Aconchegante</h3>
               <p className="text-gray-600">
-                A welcoming space designed for comfort, conversation, and productivity.
+                Um espaço acolhedor, projetado para conforto, conversa e produtividade.
               </p>
             </div>
           </div>
@@ -139,33 +139,33 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-              What People Say
+              O Que as Pessoas Dizem
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold">Customer Reviews</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Comentários de Clientes</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Testimonial 
-              text="The best coffee I've ever had! The atmosphere is so inviting, and the staff is incredibly knowledgeable about their coffee."
-              author="Sarah Johnson"
-              position="Regular Customer"
+              text="O melhor café que já experimentei! O ambiente é tão acolhedor, e a equipe é incrivelmente conhecedora sobre o café."
+              author="Juliana Silva"
+              position="Frequenta regulamente"
               rating={5}
               image="https://randomuser.me/api/portraits/women/40.jpg"
             />
             
             <Testimonial 
-              text="I come here every morning before work. Their espresso is perfect, and their pastries are always fresh. Feels like a second home."
-              author="Michael Chen"
-              position="Local Resident"
+              text="Eu venho aqui todas as manhãs antes do trabalho. O espresso deles é perfeito, e os doces estão sempre frescos. Parece uma segunda casa."
+              author="Lucas Pereira"
+              position="Morador local"
               rating={5}
               image="https://randomuser.me/api/portraits/men/32.jpg"
             />
             
             <Testimonial 
-              text="Great place to work remotely. The WiFi is reliable, the coffee keeps flowing, and the ambient music is just right for focusing."
-              author="Jessica Park"
-              position="Freelance Designer"
+              text="Ótimo lugar para trabalhar remotamente. O Wi-Fi é confiável, o café não para de chegar e a música ambiente é perfeita para se concentrar."
+              author="Jessica Machado"
+              position="Desenvolvedora de games "
               rating={4}
               image="https://randomuser.me/api/portraits/women/29.jpg"
             />
@@ -186,23 +186,23 @@ const Index = () => {
         
         <div className="container mx-auto px-6 relative z-20 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-on-scroll">
-            Ready for an exceptional coffee experience?
+            Pronto para uma experiência de café excepcional?
           </h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-8 text-lg animate-on-scroll">
-            Visit us today and discover why our customers keep coming back. Your perfect cup is waiting.
+            Visite-nos hoje e descubra por que nossos clientes continuam voltando. Sua xícara perfeita está te esperando.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-on-scroll">
             <Link 
               to="/menu" 
               className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 btn-hover"
             >
-              Explore Our Menu
+                Explore Nosso Cardápio
             </Link>
             <Link 
               to="/contact" 
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border border-white/20 px-6 py-3 rounded-lg font-medium transition-all duration-300 btn-hover"
             >
-              Find Our Location
+              Encontre Nossa Localização
             </Link>
           </div>
         </div>

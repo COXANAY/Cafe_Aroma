@@ -45,13 +45,13 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="/menu" className={`navbar-item ${isActive('/menu') ? 'text-primary' : ''}`}>
-              Menu
+              Cardápio
             </Link>
             <Link to="/about" className={`navbar-item ${isActive('/about') ? 'text-primary' : ''}`}>
-              About
+              Sobre
             </Link>
             <Link to="/contact" className={`navbar-item ${isActive('/contact') ? 'text-primary' : ''}`}>
-              Contact
+              Contato
             </Link>
           </nav>
 
@@ -86,21 +86,21 @@ const Navbar = () => {
               className={`text-lg ${isActive('/menu') ? 'text-primary font-medium' : ''}`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Menu
+              Cardápio
             </Link>
             <Link 
               to="/about" 
               className={`text-lg ${isActive('/about') ? 'text-primary font-medium' : ''}`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              About
+              Sobre nós
             </Link>
             <Link 
               to="/contact" 
               className={`text-lg ${isActive('/contact') ? 'text-primary font-medium' : ''}`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Contact
+              Contato
             </Link>
           </nav>
         </div>

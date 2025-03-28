@@ -78,9 +78,9 @@ const FeaturedProducts = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-on-scroll">
           <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-            Crafted with passion
+            Feito com alegria
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold">Our Featured Items</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Itens em Destaque</h2>
           <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
         </div>
 
