@@ -36,11 +36,11 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2 animate-on-scroll">
-              Our Story
+              Nossa História
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">About Café Aroma</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-on-scroll">Sobre o Café Aroma</h1>
             <p className="text-gray-600 animate-on-scroll">
-              Discover the passion and commitment behind every cup we serve.
+              Descubra a paixão e o compromisso por trás de cada xícara que servimos.
             </p>
           </div>
         </div>
@@ -53,13 +53,13 @@ const About = () => {
             <div className="animate-on-scroll">
               <h2 className="text-3xl font-bold mb-6">Our Journey</h2>
               <p className="text-gray-600 mb-6">
-                Café Aroma was born from a simple yet profound love for coffee. Our founders, Maria and Daniel, met while studying culinary arts in Paris and shared a vision of creating a space where coffee wasn't just a beverage, but an experience to be savored.
+                O Café Aroma nasceu de um amor simples, mas profundo, pelo café. Nossos fundadores, Maria e Daniel, se conheceram enquanto estudavam artes culinárias em Paris e compartilhavam a visão de criar um espaço onde o café não fosse apenas uma bebida, mas uma experiência a ser apreciada.
               </p>
               <p className="text-gray-600 mb-6">
-                After years of training with master roasters across Colombia, Ethiopia, and Indonesia, they returned home in 2010 to open the first Café Aroma location. What began as a small corner shop has grown into a beloved community gathering place, but our founding principles remain unchanged.
+                Depois de anos de treinamento com mestres torrefadores na Colômbia, Etiópia e Indonésia, eles retornaram para casa em 2010 para abrir a primeira unidade do Café Aroma. O que começou como uma pequena loja de esquina cresceu e se tornou um querido ponto de encontro da comunidade, mas nossos princípios fundamentais permanecem inalterados.
               </p>
               <p className="text-gray-600">
-                Every decision we make—from sourcing our beans to designing our space—is guided by our commitment to quality, sustainability, and creating moments of joy for our customers.
+                Cada decisão que tomamos — desde a seleção dos grãos até o design do nosso espaço — é guiada pelo nosso compromisso com a qualidade, a sustentabilidade e a criação de momentos de alegria para nossos clientes.
               </p>
             </div>
             
@@ -71,7 +71,7 @@ const About = () => {
               />
               <div className="absolute -bottom-6 -right-6 bg-white rounded-lg shadow-lg p-6 max-w-xs">
                 <p className="text-gray-800 font-medium">
-                  "Our goal has always been to create not just great coffee, but meaningful connections."
+                  "Nosso objetivo sempre foi criar não apenas um ótimo café, mas também conexões significativas."
                 </p>
                 <p className="text-sm text-primary mt-2">— Daniel, Co-founder</p>
               </div>
@@ -87,7 +87,7 @@ const About = () => {
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
               What Drives Us
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold">Our Core Values</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Nossos Valores Fundamentais</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
           </div>
           
@@ -96,19 +96,19 @@ const About = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Coffee className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Quality Without Compromise</h3>
+              <h3 className="text-xl font-bold mb-3">Qualidade sem Compromisso</h3>
               <p className="text-gray-600">
-                We source only the finest beans and ingredients, maintaining rigorous standards at every step of preparation. We believe that exceptional coffee requires exceptional care.
+                Selecionamos apenas os melhores grãos e ingredientes, mantendo padrões rigorosos em cada etapa da preparação. Acreditamos que um café excepcional exige um cuidado excepcional.
               </p>
             </div>
             
             <div className="bg-white rounded-lg p-8 shadow-sm animate-on-scroll">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Heart className="h-6 w-6 text-primary" />
+                <Heart className="h-6 w-6 text-primary"/>
               </div>
-              <h3 className="text-xl font-bold mb-3">Community Connection</h3>
+              <h3 className="text-xl font-bold mb-3">Conexão com a Comunidade</h3>
               <p className="text-gray-600">
-                Our café is more than a business—it's a gathering place where relationships flourish. We strive to create an environment where everyone feels welcome and valued.
+                Nosso café é mais do que um negócio — é um local de encontro onde as relações florescem. Nos esforçamos para criar um ambiente onde todos se sintam bem-vindos e valorizados.
               </p>
             </div>
             
@@ -116,9 +116,9 @@ const About = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Globe className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Environmental Responsibility</h3>
+              <h3 className="text-xl font-bold mb-3">Responsabilidade Ambiental</h3>
               <p className="text-gray-600">
-                From our eco-friendly packaging to our relationships with sustainable farms, we're committed to minimizing our environmental footprint and preserving the planet for future generations.
+                Desde nossa embalagem ecológica até nossas parcerias com fazendas sustentáveis, estamos comprometidos em minimizar nosso impacto ambiental e preservar o planeta para as futuras gerações.
               </p>
             </div>
             
@@ -126,9 +126,9 @@ const About = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Award className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Continuous Innovation</h3>
+              <h3 className="text-xl font-bold mb-3">Inovação Contínua</h3>
               <p className="text-gray-600">
-                While honoring traditional methods, we embrace innovation and creativity. We're constantly exploring new techniques and flavors to enhance the coffee experience.
+                Enquanto honramos os métodos tradicionais, abraçamos a inovação e a criatividade. Estamos constantemente explorando novas técnicas e sabores para aprimorar a experiência do café.
               </p>
             </div>
           </div>
@@ -140,12 +140,12 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-              The People Behind the Cup
+              As Pessoas Por Trás da Xícara
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold">Meet Our Team</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Conheça Nossa Equipe</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
             <p className="text-gray-600 mt-6">
-              Our passionate team of coffee experts and food enthusiasts make Café Aroma what it is today.
+              Nossa equipe apaixonada de especialistas em café e entusiastas da gastronomia faz do Café Aroma o que ele é hoje.
             </p>
           </div>
           
@@ -195,7 +195,7 @@ const About = () => {
             <div className="animate-on-scroll">
               <div className="relative overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1667149667701-e706a627bb10?q=80&w=1587&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop" 
                   alt="Marcus Johnson" 
                   className="w-full h-auto aspect-square object-cover img-hover"
                 />
@@ -223,17 +223,17 @@ const About = () => {
             
             <div className="animate-on-scroll">
               <span className="inline-block bg-primary/20 text-primary-foreground font-medium text-sm uppercase tracking-wider px-3 py-1 rounded-full mb-4">
-                Our Commitment
+                Nosso Compromisso
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Sustainability Matters</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">A Sustentabilidade Importa</h2>
               <p className="text-coffee-100 mb-6">
-                At Café Aroma, sustainability isn't just a buzzword—it's a core part of our business model. We believe that great coffee should be good for both people and the planet.
+                No Café Aroma, a sustentabilidade não é apenas uma palavra da moda — é uma parte fundamental do nosso modelo de negócios. Acreditamos que um ótimo café deve ser bom tanto para as pessoas quanto para o planeta.
               </p>
               <p className="text-coffee-100 mb-6">
-                We work directly with small-scale farmers who use sustainable growing practices, ensuring they receive fair compensation for their exceptional beans. This direct trade relationship allows us to maintain quality while supporting farming communities.
+                Trabalhamos diretamente com pequenos agricultores que utilizam práticas de cultivo sustentáveis, garantindo que recebam uma compensação justa pelos seus grãos excepcionais. Essa relação de comércio direto nos permite manter a qualidade enquanto apoiamos as comunidades agrícolas.
               </p>
               <p className="text-coffee-100">
-                Our commitment extends to our café operations, where we use biodegradable packaging, implement water conservation measures, and minimize food waste through careful planning and composting initiatives.
+                Nosso compromisso se estende às operações do nosso café, onde usamos embalagens biodegradáveis, implementamos medidas de conservação de água e minimizamos o desperdício de alimentos por meio de um planejamento cuidadoso e iniciativas de compostagem.
               </p>
             </div>
           </div>
