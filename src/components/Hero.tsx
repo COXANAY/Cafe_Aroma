@@ -39,7 +39,7 @@ const Hero = () => {
           </span>
           
           <h1 
-            className={`text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight transform transition-all duration-700 ease-out delay-100 ${
+            className={`text-4x1 md:text-5xl lg:text-5xl font-bold text-white mb-6 leading-tight transform transition-all duration-700 ease-out delay-100 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >

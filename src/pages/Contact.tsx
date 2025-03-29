@@ -80,9 +80,9 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Nossa Localização</h3>
               <p className="text-gray-600">
-                Rua 15 de Novembro, 789 Centro, Jaraguá do Sul - SC
+                R. Florianópolis,Centro Jaraguá do Sul - SC
                 <br />
-                CEP: 89251-100
+                CEP: 89251-790
               </p>
             </div>
             
@@ -92,7 +92,7 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Telefone</h3>
               <p className="text-gray-600">
-                <a href="tel:+15551234567" className="hover:text-primary transition-colors">
+                <a href="https://wa.me/5568999248990?text=Olá%2C%20gostaria%20de%20mais%20informações!" className="hover:text-primary transition-colors">
                   (68) 99924-8990
                 </a>
               </p>
@@ -129,7 +129,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold mb-6">Encontre-nos</h2>
               <div className="rounded-lg overflow-hidden shadow-sm h-[450px] bg-gray-100">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937554!2d2.2922926156742855!3d48.858370079287475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1621543061246!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14284.327571497935!2d-49.09973351810207!3d-26.48530797162715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de95051d78f7c9%3A0x2796fa9cbcd7438a!2sCentro%2C%20Jaragu%C3%A1%20do%20Sul%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1743228938444!5m2!1spt-BR!2sbr"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -155,7 +155,7 @@ const Contact = () => {
                     onChange={(e) => setName(e.target.value)}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-colors"
-                    placeholder="Your name"
+                    placeholder="Seu nome"
                   />
                 </div>
                 
@@ -170,7 +170,7 @@ const Contact = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-colors"
-                    placeholder="Your email"
+                    placeholder="Seu Email"
                   />
                 </div>
                 
@@ -185,7 +185,7 @@ const Contact = () => {
                     onChange={(e) => setSubject(e.target.value)}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-colors"
-                    placeholder="Subject"
+                    placeholder="Assunto"
                   />
                 </div>
                 
@@ -200,7 +200,7 @@ const Contact = () => {
                     required
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-colors resize-none"
-                    placeholder="Your message"
+                    placeholder="Sua Mensagem..."
                   ></textarea>
                 </div>
                 

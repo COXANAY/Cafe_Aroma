@@ -6,37 +6,37 @@ const featuredItems = [
   {
     id: 1,
     name: 'Signature Espresso',
-    description: 'Our house blend with notes of chocolate, caramel, and a hint of citrus.',
-    price: '$4.50',
+    description: 'Nossa mistura exclusiva com notas de chocolate, caramelo e um toque de cítrico.',
+    price: 'R$19,00',
     image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: true
   },
   {
     id: 2,
     name: 'Matcha Latte',
-    description: 'Premium Japanese matcha whisked with steamed milk and a touch of honey.',
-    price: '$5.25',
-    image: 'https://images.unsplash.com/photo-1536677177614-9e9bb56d02b9?q=80&w=1740&auto=format&fit=crop',
-    category: 'Specialty',
+    description: 'Matcha japonês premium batido com leite vaporizado e um toque de mel.',
+    price: 'R$ 12,50',
+    image: 'https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=2071&auto=format&fit=crop',
+    category: 'Especialidade',
     bestseller: false
   },
   {
     id: 3,
     name: 'Almond Croissant',
-    description: 'Buttery layered pastry filled with rich almond cream and topped with sliced almonds.',
-    price: '$4.75',
+    description: 'Croissant amanteigado recheado com creme de amêndoas e coberto com amêndoas fatiadas.',
+    price: 'R$ 17,50',
     image: 'https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=1740&auto=format&fit=crop',
-    category: 'Pastry',
+    category: 'Confeitaria',
     bestseller: true
   },
   {
     id: 4,
-    name: 'Avocado Toast',
-    description: 'Sourdough toast topped with smashed avocado, cherry tomatoes, and microgreens.',
-    price: '$8.95',
-    image: 'https://images.unsplash.com/photo-1603046891744-8888bc041c65?q=80&w=1615&auto=format&fit=crop',
-    category: 'Food',
+    name: 'Torrada de Abacate',
+    description: 'Torrada de pão de fermentação natural coberta com abacate amassado, tomates-cereja e brotos.',
+    price: 'R$ 20,50',
+    image: 'https://images.unsplash.com/photo-1623691752358-0be1e4235183?q=80&w=1974&auto=format&fit=crop',
+    category: 'Comida',
     bestseller: false
   }
 ];

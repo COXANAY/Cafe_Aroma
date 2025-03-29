@@ -6,146 +6,147 @@ import MenuCard from '../components/MenuCard';
 
 // Menu data
 const menuItems = [
-  // Coffee
+  // Cafés
   {
     id: 1,
     name: 'Espresso',
-    description: 'A concentrated shot of coffee served in a small cup.',
-    price: '$3.50',
+    description: 'Um espresso, um café concentrado servido em uma xícara pequena.',
+    price: 'R$ 4,00',
     image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=80&w=1635&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: false
   },
   {
     id: 2,
     name: 'Cappuccino',
-    description: 'Equal parts espresso, steamed milk, and milk foam.',
-    price: '$4.75',
+    description: 'Partes iguais de espresso, leite vaporizado e espuma de leite.',
+    price: 'R$ 8,00',
     image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=1587&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: true
   },
   {
     id: 3,
     name: 'Latte',
-    description: 'Espresso with steamed milk and a small layer of foam.',
-    price: '$4.95',
+    description: 'Espresso com leite vaporizado e uma camada fina de espuma.',
+    price: 'R$ 8,50',
     image: 'https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=1635&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: false
   },
   {
     id: 4,
-    name: 'Americano',
-    description: 'Espresso diluted with hot water.',
-    price: '$3.95',
+    name: 'Café Americano',
+    description: 'Espresso diluído com água quente.',
+    price: 'R$ 6,00',
     image: 'https://images.unsplash.com/photo-1551030173-122aabc4489c?q=80&w=1587&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: false
   },
   {
     id: 5,
-    name: 'Cold Brew',
-    description: 'Coffee brewed with cold water over several hours.',
-    price: '$4.50',
+    name: 'Café Cold Brew',
+    description: 'Café preparado com água fria durante várias horas.',
+    price: 'R$ 12,00',
     image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=1587&auto=format&fit=crop',
-    category: 'Coffee',
+    category: 'Cafés',
     bestseller: true
   },
-  
-  // Specialty Drinks
+
+  // Drinks Especiais
   {
     id: 6,
     name: 'Caramel Macchiato',
-    description: 'Espresso with vanilla syrup, steamed milk, and caramel drizzle.',
-    price: '$5.50',
+    description: 'Espresso com xarope de baunilha, leite vaporizado e calda de caramelo.',
+    price: 'R$ 12,50',
     image: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=1740&auto=format&fit=crop',
-    category: 'Specialty',
+    category: 'Especialidade',
     bestseller: true
   },
   {
     id: 7,
     name: 'Matcha Latte',
-    description: 'Premium Japanese matcha whisked with steamed milk and a touch of honey.',
-    price: '$5.25',
-    image: 'https://images.unsplash.com/photo-1536677177614-9e9bb56d02b9?q=80&w=1740&auto=format&fit=crop',
-    category: 'Specialty',
+    description: 'Matcha japonês premium batido com leite vaporizado e um toque de mel.',
+    price: 'R$ 12,50',
+    image: 'https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=2071&auto=format&fit=crop',
+    category: 'Especialidade',
     bestseller: false
   },
   {
     id: 8,
     name: 'Chai Latte',
-    description: 'Black tea infused with spices and steamed milk.',
-    price: '$4.95',
-    image: 'https://images.unsplash.com/photo-1635214187427-ab30955c5315?q=80&w=1587&auto=format&fit=crop',
-    category: 'Specialty',
+    description: 'Chá preto infundido com especiarias e leite vaporizado.',
+    price: 'R$ 22,50', // valor fixo
+    image: 'https://images.unsplash.com/photo-1545408074-076d7582081e?q=80&w=1935&auto=format&fit=crop',
+    category: 'Especialidade',
     bestseller: false
   },
-  
-  // Pastries
+
+  //Confeitaria
   {
     id: 9,
     name: 'Croissant',
-    description: 'Classic buttery French pastry with a flaky texture.',
-    price: '$3.50',
+    description: 'Croissant clássico francês, amanteigado e com textura folhada.',
+    price: 'R$ 14,00', // valor fixo
     image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1726&auto=format&fit=crop',
-    category: 'Pastry',
+    category: 'Confeitaria',
     bestseller: false
   },
   {
     id: 10,
     name: 'Almond Croissant',
-    description: 'Buttery pastry filled with almond cream and topped with sliced almonds.',
-    price: '$4.75',
+    description: 'Croissant amanteigado recheado com creme de amêndoas e coberto com amêndoas fatiadas.',
+    price: 'R$ 17,50', // valor fixo
     image: 'https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=1740&auto=format&fit=crop',
-    category: 'Pastry',
+    category: 'Confeitaria',
     bestseller: true
   },
   {
     id: 11,
     name: 'Chocolate Muffin',
-    description: 'Rich chocolate muffin with chocolate chips.',
-    price: '$3.95',
-    image: 'https://images.unsplash.com/photo-1604882359955-233d05082aeb?q=80&w=1587&auto=format&fit=crop',
-    category: 'Pastry',
+    description: 'Muffin de chocolate rico com pedaços de chocolate.',
+    price: 'R$ 14,00', // valor fixo
+    image: 'https://images.unsplash.com/photo-1553993818-564c60f8e705?q=80&w=2070&auto=format&fit=crop',
+    category: 'Confeitaria',
     bestseller: false
   },
-  
-  // Food
+
+  //Comida
   {
     id: 12,
-    name: 'Avocado Toast',
-    description: 'Sourdough toast topped with smashed avocado, cherry tomatoes, and microgreens.',
-    price: '$8.95',
-    image: 'https://images.unsplash.com/photo-1603046891744-8888bc041c65?q=80&w=1615&auto=format&fit=crop',
-    category: 'Food',
+    name: 'Torrada de Abacate',
+    description: 'Torrada de pão de fermentação natural coberta com abacate amassado, tomates-cereja e brotos.',
+    price: 'R$ 20,50', // valor fixo
+    image: 'https://images.unsplash.com/photo-1623691752358-0be1e4235183?q=80&w=1974&auto=format&fit=crop',
+    category: 'Comida',
     bestseller: true
   },
   {
     id: 13,
     name: 'Chicken Pesto Panini',
-    description: 'Grilled sandwich with chicken, pesto, mozzarella, and sun-dried tomatoes.',
-    price: '$9.95',
+    description: 'Sanduíche grelhado com frango, pesto, mozzarella e tomates secos.',
+    price: 'R$ 30,00', // valor fixo
     image: 'https://images.unsplash.com/photo-1550507992-eb63ffee0847?q=80&w=1740&auto=format&fit=crop',
-    category: 'Food',
+    category: 'Comida',
     bestseller: false
   },
   {
     id: 14,
     name: 'Quinoa Salad Bowl',
-    description: 'Fresh mixed greens with quinoa, roasted vegetables, and lemon vinaigrette.',
-    price: '$10.50',
+    description: 'Folhas verdes frescas com quinoa, legumes assados e vinagrete de limão.',
+    price: 'R$ 40,00', // valor fixo
     image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1740&auto=format&fit=crop',
-    category: 'Food',
+    category: 'Comida',
     bestseller: false
   }
 ];
 
+
 const Menu = () => {
-  const [activeCategory, setActiveCategory] = useState('All');
+  const [activeCategory, setActiveCategory] = useState('Todos');
   const [filteredItems, setFilteredItems] = useState(menuItems);
   
-  const categories = ['All', 'Coffee', 'Specialty', 'Pastry', 'Food'];
+  const categories = ['Todos', 'Cafés', 'Especialidade', 'Confeitaria', 'Comida'];
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -170,7 +171,7 @@ const Menu = () => {
   }, []);
   
   useEffect(() => {
-    if (activeCategory === 'All') {
+    if (activeCategory === 'Todos') {
       setFilteredItems(menuItems);
     } else {
       setFilteredItems(menuItems.filter(item => item.category === activeCategory));

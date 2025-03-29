@@ -51,7 +51,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
-              <h2 className="text-3xl font-bold mb-6">Our Journey</h2>
+              <h2 className="text-3xl font-bold mb-6">Nossa Jornada</h2>
               <p className="text-gray-600 mb-6">
                 O Café Aroma nasceu de um amor simples, mas profundo, pelo café. Nossos fundadores, Maria e Daniel, se conheceram enquanto estudavam artes culinárias em Paris e compartilhavam a visão de criar um espaço onde o café não fosse apenas uma bebida, mas uma experiência a ser apreciada.
               </p>
@@ -73,7 +73,7 @@ const About = () => {
                 <p className="text-gray-800 font-medium">
                   "Nosso objetivo sempre foi criar não apenas um ótimo café, mas também conexões significativas."
                 </p>
-                <p className="text-sm text-primary mt-2">— Daniel, Co-founder</p>
+                <p className="text-sm text-primary mt-2">— Daniel, Co-fundador</p>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-16 animate-on-scroll">
             <span className="inline-block text-primary font-medium text-sm uppercase tracking-wider mb-2">
-              What Drives Us
+              O que nos motiva
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">Nossos Valores Fundamentais</h2>
             <div className="w-24 h-1 bg-primary/30 mx-auto mt-4"></div>
@@ -160,7 +160,7 @@ const About = () => {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-bold">Maria Rodriguez</h3>
-                <p className="text-primary">Co-founder & Master Roaster</p>
+                <p className="text-primary">Co-fundadora e Mestre Torrefadora</p>
               </div>
             </div>
             
@@ -174,7 +174,7 @@ const About = () => {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-bold">Daniel Chen</h3>
-                <p className="text-primary">Co-founder & Head Chef</p>
+                <p className="text-primary">Co-fundador e Chef Executivo</p>
               </div>
             </div>
             
@@ -188,7 +188,7 @@ const About = () => {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-bold">Sophia Kim</h3>
-                <p className="text-primary">Head Barista</p>
+                <p className="text-primary">Barista Chefe</p>
               </div>
             </div>
             
@@ -202,7 +202,7 @@ const About = () => {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-bold">Marcus Johnson</h3>
-                <p className="text-primary">Pastry Chef</p>
+                <p className="text-primary">Confeiteiro Chefe</p>
               </div>
             </div>
           </div>

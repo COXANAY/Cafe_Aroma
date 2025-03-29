@@ -67,7 +67,7 @@ const Footer = () => {
             <ul className="space-y-3 text-coffee-100">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-coffee-200 shrink-0 mt-0.5" />
-                <span>Rua 15 de Novembro, 789 Centro, Jaraguá do Sul - SC<br/> CEP: 89251-100</span>
+                <span>R. Florianópolis, 89 - Centro, Jaraguá do Sul - SC<br/> CEP: 89251-790</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-coffee-200 shrink-0" />
